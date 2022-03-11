@@ -1,6 +1,6 @@
 module "vpc" {
     source  = "terraform-google-modules/network/google"
-    version = "~> 5.0"
+    version = "~> 3.4"
     network_name = "sam-network"
     project_id = var.project
     subnets = [
